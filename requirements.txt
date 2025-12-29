@@ -1,0 +1,8 @@
+torch
+torchvision
+transformers
+accelerate
+safetensors
+pillow
+gradio
+git+https://github.com/huggingface/diffusers.git
