@@ -42,6 +42,7 @@ def process_edit(target_img, ref_img, prompt):
             negative_prompt=" ", # Required for CFG math
             num_inference_steps=30, # 30 is enough for L40S quality
             true_cfg_scale=4.0,
+            negative_prompt="low quality",
             height=1008, # Explicitly tell the pipeline to use the safe size
             width=1008,
         ).images[0]
